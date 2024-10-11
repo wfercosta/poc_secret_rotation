@@ -1,0 +1,21 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Action": [
+        "dynamodb:BatchGetItem",
+        "dynamodb:GetItem",
+        "dynamodb:GetRecords",
+        "dynamodb:Scan",
+        "dynamodb:Query",
+        "dynamodb:GetShardIterator",
+        "dynamodb:DescribeStream",
+        "dynamodb:ListStreams"
+      ],
+      "Effect": "Allow",
+      "Resource": [
+        "*"
+      ]
+    }
+  ]
+}
